@@ -1,0 +1,33 @@
+.container{
+    width: 80%;
+    text-align: center;
+    margin: 5% 10%;
+    border: 1rem groove #eab308;
+}
+
+textarea{
+    width:90%;    
+    height: 20vh;
+    margin: .25rem 0;
+    padding: 1rem 0;
+}
+
+#btn-translate{
+    width: 90%;
+    margin: .25rem 0;
+    padding: 0.5rem 0;
+}
+
+#txt-errormsg{
+    color: red;
+    width: 90%;
+}
+
+#txt-output{
+    width: 90%;
+    height: 20vh;    
+    background-color:#ddddddf5;
+    margin: .25rem 0;
+    padding: 0.5rem 0;
+    display: inline-block;
+}
