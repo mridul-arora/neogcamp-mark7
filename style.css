@@ -21,6 +21,10 @@ textarea{
 #txt-errormsg{
     color: red;
     width: 90%;
+    display: inline-block;
+    text-align: center;
+    margin: .25rem 0;
+    padding: 0.5rem 0;
 }
 
 #txt-output{

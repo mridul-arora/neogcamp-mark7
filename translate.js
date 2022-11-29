@@ -3,7 +3,7 @@ var txtInput = document.querySelector("#txt-input");
 var txtOutput = document.querySelector("#txt-output");
 var txtErrorMsg = document.querySelector("#txt-errormsg");
 
- var url = "https://api.https://api.funtranslations.com/translate/klingon.json"
+ var url = "https://api.funtranslations.com/translate/klingon.json"
 //var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
 function errorHandler(error){
