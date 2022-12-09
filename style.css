@@ -1,37 +1,117 @@
-.container{
-    width: 80%;
-    text-align: center;
-    margin: 5% 10%;
-    border: 1rem groove #eab308;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --primary-color: #f59e0b;
+    --parent-portfolio-color:  #c2410c;
+    --secondary-color: #eab308;
+    --off-white: #fffbeb;
+    --dark-gray: #57534e;
 }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto;
+    max-width: 50%;
+    width: 100%;
+}
+
+/** navbar **/
+.heading {
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding: 1rem;    
+    margin: 1rem -1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 var(--dark-gray), 0 6px 20px 0 var(--dark-gray);
+    border-top: 1rem solid var(--parent-portfolio-color);
+    padding-top: 0rem;
+}
+
+/** footers **/
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding: 1rem;
+    margin: 2rem -1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 -4px 8px 0 var(--dark-gray), 0 -6px 20px 0 var(--dark-gray);
+    border-bottom: 1.5rem solid var(--parent-portfolio-color);
+    padding-bottom: 0rem;
+  }
+  
+  .footer .link {
+    color: var(--off-white);
+    text-decoration: none;
+    cursor:pointer;
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .footer .list-item-inline {
+    display: inline;
+    padding: 1rem;
+  }
+  
+  ul{
+    padding-inline-start: 0px;
+  }
+  
+  /* container */
+
+  .container{
+    background-color: var(--off-white);
+    display: block;
+    margin: -1rem -1rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    text-align: center;
+    border-bottom: 1.2vh solid var(--primary-color);
+    border-radius: 0.5rem;
+  }
+
+  #btn-translate{
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 var(--dark-gray);
+    border-radius: 0.3rem;
+  }
 
 textarea{
-    width:90%;    
-    height: 20vh;
-    margin: .25rem 0;
+    max-width: 80%;
+    width:80%;    
+    height: 8vw;
+    margin: 0.5rem auto;
+    margin-top: 3rem;
     padding: 1rem 0;
-}
-
-#btn-translate{
-    width: 90%;
-    margin: .25rem 0;
-    padding: 0.5rem 0;
+    display: block;
+    
 }
 
 #txt-errormsg{
-    color: red;
+    color: var(--parent-portfolio-color);
     width: 90%;
     display: inline-block;
     text-align: center;
-    margin: .25rem 0;
+    margin: .25rem auto;
     padding: 0.5rem 0;
 }
 
 #txt-output{
     width: 90%;
-    height: 20vh;    
-    background-color:#ddddddf5;
-    margin: .25rem 0;
+    margin: .25rem auto;
     padding: 0.5rem 0;
     display: inline-block;
 }
